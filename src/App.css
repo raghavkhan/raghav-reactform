@@ -1,0 +1,42 @@
+
+.allContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 140vh;
+}
+
+.container{ 
+  display: flex;
+  flex-direction: column;
+  gap:0rem;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(175, 170, 170);
+  background-color: rgb(122, 113, 113);
+  width:40%;
+  height:70%;
+  padding-top : 3rem;
+  color: rgb(26, 21, 21);
+  border-radius: 0.7rem;
+} 
+
+.error{ color:red;
+}
+
+.field{
+  background-color: rgb(178, 184, 189);
+}
+
+.shift_success{
+position: relative;
+}
+
+.success{
+position: absolute;
+top: -36rem;
+left: 18rem;
+color: rgb(79, 206, 79);
+}
